@@ -121,15 +121,51 @@ The models are evaluated using:
 ---
 ### Machine Learning Algorithm Diagrams
 
-<p align="center">
-  <img src="images/ml_models/random forest model.png" width="45%">
-  <img src="images/ml_models/xgboost.png" width="45%">
-</p>
+<table align="center">
+<tr>
+<td align="center" width="50%">
 
-<p align="center">
-  <img src="images/ml_models/lightgbm.png" width="45%">
-  <img src="images/ml_models/catboost.png" width="45%">
-</p>
+<img src="images/ml_models/random forest model.png" width="95%">
+
+**Random Forest**
+
+Ensemble learning algorithm used for battery temperature fault detection and predictive analysis.
+
+</td>
+
+<td align="center" width="50%">
+
+<img src="images/ml_models/xgboost.png" width="95%">
+
+**XGBoost**
+
+Gradient boosting algorithm optimized for high-accuracy fault prediction and classification.
+
+</td>
+</tr>
+
+<tr>
+<td align="center" width="50%">
+
+<img src="images/ml_models/lightgbm.png" width="95%">
+
+**LightGBM**
+
+Lightweight gradient boosting framework designed for fast training and efficient prediction.
+
+</td>
+
+<td align="center" width="50%">
+
+<img src="images/ml_models/catboost.png" width="95%">
+
+**CatBoost**
+
+Gradient boosting algorithm with strong handling of complex feature relationships and robust predictive performance.
+
+</td>
+</tr>
+</table>
 
 ---
 
