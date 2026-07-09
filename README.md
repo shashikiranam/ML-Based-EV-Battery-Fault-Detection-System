@@ -160,7 +160,6 @@ The proposed system collects battery temperature, voltage, and current data from
 ```
 ## Repository Structure
 
-```
 ML-Based-EV-Battery-Fault-Detection-System
 │
 ├── docs/
