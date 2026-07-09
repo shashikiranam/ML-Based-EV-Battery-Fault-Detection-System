@@ -41,15 +41,18 @@ My contributions include:
 
 ## Patent Information
 
-| Details | Information |
-|---------|-------------|
+| Item | Details |
+|------|---------|
 | Patent Title | Machine Learning-Based Battery Temperature Fault Detection System for Electric Vehicles |
-| Patent Status | Published Indian Patent Application |
 | Application Number | 202541123226 |
 | Filing Date | 06 December 2025 |
 | Publication Date | 02 January 2026 |
+| Patent Status | Published Indian Patent Application |
 | Current Status | Awaiting Request for Examination |
 | Applicant | Vellore Institute of Technology |
+| Official Source | Indian Patent Office (IPO), Government of India |
+
+The official patent publication (`Patent_Application_Publication.pdf`) is available in the `docs/` folder of this repository.
 
 ---
 
@@ -68,10 +71,24 @@ My contributions include:
 
 ## Machine Learning Models
 
-- Random Forest
-- XGBoost
-- LightGBM
-- CatBoost
+| Model | Purpose |
+|--------|---------|
+| Random Forest | Ensemble learning model used for accurate battery temperature fault detection. |
+| XGBoost | Gradient boosting model for high-performance prediction and fault classification. |
+| LightGBM | Fast gradient boosting framework optimized for efficient model training. |
+| CatBoost | Gradient boosting algorithm with robust handling of complex feature relationships. |
+
+### Model Evaluation Metrics
+
+The models are evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
 
 ---
 
@@ -99,35 +116,48 @@ My contributions include:
 - GitHub
 
 ---
-## Project Workflow
+## System Workflow
 
-```text
-Battery Data Collection
-          │
-          ▼
-Data Preprocessing
-          │
-          ▼
-Feature Engineering
-          │
-          ▼
-Train-Test Split
-          │
-          ▼
-Machine Learning Model Training
-          │
-          ▼
-Model Evaluation
-          │
-          ▼
-Fault Detection
-          │
-          ▼
-Performance Comparison
+```mermaid
+flowchart TD
+
+A[Battery Data Collection]
+B[Data Preprocessing]
+C[Feature Engineering]
+D[Train-Test Split]
+E[Random Forest]
+F[XGBoost]
+G[LightGBM]
+H[CatBoost]
+I[Model Evaluation]
+J[Fault Detection]
+K[Performance Comparison]
+L[Battery Safety & Predictive Maintenance]
+
+A --> B
+B --> C
+C --> D
+D --> E
+D --> F
+D --> G
+D --> H
+E --> I
+F --> I
+G --> I
+H --> I
+I --> J
+J --> K
+K --> L
 ```
+## System Architecture
 
----
+<p align="center">
+  <img src="images/architecture/system_architecture.png" width="90%" alt="System Architecture">
+</p>
 
+The proposed system collects battery temperature, voltage, and current data from the battery pack. The acquired data undergoes preprocessing and feature engineering before being used to train multiple machine learning models. The best-performing model is selected for battery fault detection and predictive maintenance.
+
+```
 ## Repository Structure
 
 ```
@@ -195,18 +225,36 @@ The machine learning models are evaluated using:
 ---
 ## Results
 
-The developed system successfully detects abnormal battery temperature conditions using machine learning techniques.
+The developed system demonstrates high accuracy in detecting abnormal battery temperature conditions using machine learning algorithms.
 
-Key highlights:
+### Performance Summary
 
-- High prediction accuracy for battery fault detection
-- Comparison of four machine learning algorithms
-- Improved battery safety through predictive maintenance
-- Early detection of abnormal temperature conditions
-- Suitable for Battery Management Systems (BMS) in Electric Vehicles
+| Model | Application |
+|--------|-------------|
+| Random Forest | Battery temperature fault detection |
+| XGBoost | Fault prediction and classification |
+| LightGBM | Fast model training and prediction |
+| CatBoost | Robust ensemble learning |
 
-> Detailed graphs and evaluation reports are available in the `results/` directory.
+### Evaluation Metrics
 
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
+
+### Output
+
+- Early battery fault detection
+- Abnormal temperature identification
+- Predictive maintenance support
+- Improved battery safety
+- Machine learning model comparison
+
+> Detailed graphs, performance reports, and prediction results are available in the `results/` directory.
 ---
 
 ## Future Enhancements
