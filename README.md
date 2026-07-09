@@ -122,7 +122,7 @@ The models are evaluated using:
 ### Machine Learning Algorithm Diagrams
 
 <p align="center">
-  <img src="images/ml_models/random_forest.png" width="45%">
+  <img src="images/ml_models/random forest model.png" width="45%">
   <img src="images/ml_models/xgboost.png" width="45%">
 </p>
 
