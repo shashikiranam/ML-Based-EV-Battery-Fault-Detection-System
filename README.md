@@ -14,7 +14,26 @@
 ![Electric Vehicle](https://img.shields.io/badge/Application-Electric%20Vehicle-darkgreen)
 
 > Published Indian Patent Application | Machine Learning | Electric Vehicles | Battery Management System | Predictive Maintenance
+---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [My Contributions](#my-contributions)
+- [Patent Information](#patent-information)
+- [Features](#features)
+- [Machine Learning Models](#machine-learning-models)
+- [Technology Stack](#technology-stack)
+- [System Workflow](#system-workflow)
+- [System Architecture](#system-architecture)
+- [Experimental Hardware Setup](#experimental-hardware-setup)
+- [Repository Structure](#repository-structure)
+- [Applications](#applications)
+- [Results](#results)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
+- [Citation](#citation)
+- [Author](#author)
 ---
 
 ## Overview
@@ -26,7 +45,7 @@ The project analyzes battery temperature data collected under normal and abnorma
 This repository presents the implementation and machine learning workflow developed for the published Indian Patent Application titled **"Machine Learning-Based Battery Temperature Fault Detection System for Electric Vehicles."**
 
 ---
-## My Contributions
+## Implementation Contributions
 
 This repository showcases my implementation and technical work related to the published patent application.
 
@@ -68,6 +87,15 @@ The official patent publication (`Patent_Application_Publication.pdf`) is availa
 - EV battery safety enhancement
 
 ---
+## Project Highlights
+
+- Published Indian Patent Application
+- Four Machine Learning Algorithms
+- Six Experimental Battery Temperature Datasets
+- Battery Fault Detection for Electric Vehicles
+- Predictive Maintenance Framework
+- Python-based Implementation
+---
 
 ## Machine Learning Models
 
@@ -91,31 +119,53 @@ The models are evaluated using:
 - R² Score
 
 ---
+### Machine Learning Algorithm Diagrams
+
+<p align="center">
+  <img src="images/ml_models/random_forest.png" width="45%">
+  <img src="images/ml_models/xgboost.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="images/ml_models/lightgbm.png" width="45%">
+  <img src="images/ml_models/catboost.png" width="45%">
+</p>
+
+---
 
 ## Technology Stack
 
-### Programming Language
-
-- Python
-
-### Libraries
-
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-learn
-- XGBoost
-- LightGBM
-- CatBoost
-
-### Tools
-
-- Jupyter Notebook
-- Visual Studio Code
-- Git
-- GitHub
+| Category | Technologies |
+|-----------|--------------|
+| Programming Language | Python |
+| Machine Learning Libraries | Scikit-learn, XGBoost, LightGBM, CatBoost |
+| Data Analysis | NumPy, Pandas |
+| Data Visualization | Matplotlib |
+| Development Environment | Google Colab, Jupyter Notebook, Visual Studio Code |
+| Version Control | Git, GitHub |
 
 ---
+
+## Installation
+
+```bash
+git clone https://github.com/shashikiranam/ML-Based-EV-Battery-Fault-Detection-System.git
+
+cd ML-Based-EV-Battery-Fault-Detection-System
+
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Open the notebook inside the `notebooks/` folder.
+2. Install the required Python packages using `requirements.txt`.
+3. Upload the battery temperature datasets from the `dataset/raw/` folder.
+4. Run the notebook from top to bottom.
+5. Review the generated predictions, evaluation metrics, and graphs.
+
+---
+
 ## System Workflow
 
 ```mermaid
@@ -152,14 +202,23 @@ K --> L
 ## System Architecture
 
 <p align="center">
-  <img src="images/architecture/system_architecture.png" width="90%" alt="System Architecture">
+  <img src="images/architecture/block_diagram.png" width="80%" alt="System Architecture">
 </p>
 
-The proposed system collects battery temperature, voltage, and current data from the battery pack. The acquired data undergoes preprocessing and feature engineering before being used to train multiple machine learning models. The best-performing model is selected for battery fault detection and predictive maintenance.
+The proposed system collects battery temperature data from multiple sensor locations under load and no-load conditions. The data undergoes preprocessing before being used to train and evaluate multiple machine learning algorithms for battery fault detection.
+---
+## Experimental Hardware Setup
 
-```
+<p align="center">
+  <img src="images/hardware/hardware_setup.png" width="70%" alt="Hardware Setup">
+</p>
+
+The experimental setup consists of an EV battery pack, temperature sensors (T1, T2, and T3), data acquisition hardware, and a computer running Python-based machine learning models for battery temperature fault detection.
+---
+
 ## Repository Structure
 
+```text
 ML-Based-EV-Battery-Fault-Detection-System
 │
 ├── docs/
@@ -182,21 +241,23 @@ ML-Based-EV-Battery-Fault-Detection-System
 │
 ├── results/
 │   ├── graphs/
-│   └── reports/
+│   ├── reports/
+│   └── predictions/
 │
 ├── images/
 │   ├── architecture/
 │   ├── hardware/
+│   ├── ml_models/
 │   └── results/
 │
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+├── requirements.txt
 └── CITATION.cff
 ```
 
 ---
-
 ## Performance Metrics
 
 The machine learning models are evaluated using:
@@ -254,7 +315,22 @@ The developed system demonstrates high accuracy in detecting abnormal battery te
 - Machine learning model comparison
 
 > Detailed graphs, performance reports, and prediction results are available in the `results/` directory.
----
+
+## Experimental Results
+
+### Sample Prediction Graphs
+
+<p align="center">
+  <img src="images/results/T1-1.png" width="45%">
+  <img src="images/results/T2-1.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="images/results/T3-1.png" width="45%">
+  <img src="images/results/T1-NL-1.png" width="45%">
+</p>
+
+More experimental graphs are available in the `images/results/` directory.
 
 ## Future Enhancements
 
