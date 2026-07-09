@@ -74,3 +74,155 @@ This work is based on a **Published Indian Patent Application**.
 - GitHub
 
 ---
+## Project Workflow
+
+```text
+Battery Data Collection
+          │
+          ▼
+Data Preprocessing
+          │
+          ▼
+Feature Engineering
+          │
+          ▼
+Train-Test Split
+          │
+          ▼
+Machine Learning Model Training
+          │
+          ▼
+Model Evaluation
+          │
+          ▼
+Fault Detection
+          │
+          ▼
+Performance Comparison
+```
+
+---
+
+## Repository Structure
+
+```
+ML-Based-EV-Battery-Fault-Detection-System
+│
+├── docs/
+│   ├── Patent_Application_Publication.pdf
+│   ├── Complete_Specification.pdf
+│   ├── PATENT.md
+│   ├── PROJECT_REPORT.md
+│   └── Research_Paper.md
+│
+├── dataset/
+│   ├── raw/
+│   └── processed/
+│
+├── src/
+│
+├── notebooks/
+│
+├── models/
+│   └── trained/
+│
+├── results/
+│   ├── graphs/
+│   └── reports/
+│
+├── images/
+│   ├── architecture/
+│   ├── hardware/
+│   └── results/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+└── CITATION.cff
+```
+
+---
+
+## Performance Metrics
+
+The machine learning models are evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- R² Score
+
+---
+
+## Applications
+
+- Electric Vehicles
+- Battery Management Systems (BMS)
+- Predictive Maintenance
+- Battery Health Monitoring
+- Smart Mobility
+- Automotive Safety
+- Intelligent Fault Diagnosis
+
+---
+## Results
+
+The developed system successfully detects abnormal battery temperature conditions using machine learning techniques.
+
+Key highlights:
+
+- High prediction accuracy for battery fault detection
+- Comparison of four machine learning algorithms
+- Improved battery safety through predictive maintenance
+- Early detection of abnormal temperature conditions
+- Suitable for Battery Management Systems (BMS) in Electric Vehicles
+
+> Detailed graphs and evaluation reports are available in the `results/` directory.
+
+---
+
+## Future Enhancements
+
+- Deep Learning-based fault prediction
+- Real-time IoT integration
+- Cloud-based battery monitoring dashboard
+- Edge AI deployment
+- Battery Remaining Useful Life (RUL) prediction
+- Integration with Battery Management Systems (BMS)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Citation
+
+If you use this project for research or academic purposes, please cite this repository and the associated published patent application.
+
+---
+
+## Acknowledgements
+
+- Vellore Institute of Technology (VIT)
+- Office of the Controller General of Patents, Designs & Trade Marks, Government of India
+- Open-source Machine Learning Community
+
+---
+
+## Author
+
+**Shashi Kiran A M**
+
+Embedded Systems Engineer | Automotive Electronics Engineer | Machine Learning Enthusiast
+
+GitHub: https://github.com/shashikiranam
+
+---
+
+⭐ If you found this project useful, consider giving it a Star.
