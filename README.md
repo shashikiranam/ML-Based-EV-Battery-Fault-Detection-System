@@ -19,13 +19,27 @@
 
 ## Overview
 
+## Overview
+
 Machine Learning-Based Battery Temperature Fault Detection System for Electric Vehicles is a patent-based project developed to detect abnormal battery temperature conditions using machine learning techniques.
 
 The project analyzes battery temperature data collected under normal and abnormal operating conditions to identify potential battery faults before failure occurs. Four machine learning algorithms are implemented and compared to determine the most accurate prediction model.
 
-This work is based on a **Published Indian Patent Application**.
+This repository presents the implementation and machine learning workflow developed for the published Indian Patent Application titled **"Machine Learning-Based Battery Temperature Fault Detection System for Electric Vehicles."**
 
 ---
+## My Contributions
+
+This repository showcases my implementation and technical work related to the published patent application.
+
+My contributions include:
+
+- Battery temperature dataset preparation and preprocessing
+- Feature engineering and data analysis
+- Development of Random Forest, XGBoost, LightGBM, and CatBoost models
+- Model training, testing, and performance evaluation
+- Experimental analysis and result visualization
+- Project implementation and technical documentation
 
 ## Patent Information
 
