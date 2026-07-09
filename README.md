@@ -1,4 +1,13 @@
 # Machine Learning-Based Battery Temperature Fault Detection System for Electric Vehicles
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-Model-success)
+![XGBoost](https://img.shields.io/badge/XGBoost-Enabled-red)
+![LightGBM](https://img.shields.io/badge/LightGBM-Enabled-green)
+![CatBoost](https://img.shields.io/badge/CatBoost-Enabled-yellow)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Patent](https://img.shields.io/badge/Patent-Published-success)
+![Electric Vehicle](https://img.shields.io/badge/Application-Electric%20Vehicle-darkgreen)
 
 > Published Indian Patent Application | Machine Learning | Electric Vehicles | Battery Management System | Predictive Maintenance
 
