@@ -238,7 +238,7 @@ K --> L
 ## System Architecture
 
 <p align="center">
-  <img src="images/architecture/block_diagram.png" width="80%" alt="System Architecture">
+  <img src="images/architecture/block diagram.png" width="80%" alt="System Architecture">
 </p>
 
 The proposed system collects battery temperature data from multiple sensor locations under load and no-load conditions. The data undergoes preprocessing before being used to train and evaluate multiple machine learning algorithms for battery fault detection.
@@ -246,7 +246,7 @@ The proposed system collects battery temperature data from multiple sensor locat
 ## Experimental Hardware Setup
 
 <p align="center">
-  <img src="images/hardware/hardware_setup.png" width="70%" alt="Hardware Setup">
+  <img src="images/hardware/hardware setup.png" width="70%" alt="Hardware Setup">
 </p>
 
 The experimental setup consists of an EV battery pack, temperature sensors (T1, T2, and T3), data acquisition hardware, and a computer running Python-based machine learning models for battery temperature fault detection.
@@ -257,43 +257,22 @@ The experimental setup consists of an EV battery pack, temperature sensors (T1, 
 ```text
 ML-Based-EV-Battery-Fault-Detection-System
 │
-├── docs/
-│   ├── Patent_Application_Publication.pdf
-│   ├── Complete_Specification.pdf
-│   ├── PATENT.md
-│   ├── PROJECT_REPORT.md
-│   └── Research_Paper.md
-│
-├── dataset/
-│   ├── raw/
-│   └── processed/
-│
-├── src/
-│
-├── notebooks/
-│
-├── models/
-│   └── trained/
-│
-├── results/
-│   ├── graphs/
-│   ├── reports/
-│   └── predictions/
-│
-├── images/
-│   ├── architecture/
-│   ├── hardware/
-│   ├── ml_models/
-│   └── results/
+├── docs/            # Patent documents and technical documentation
+├── dataset/         # Experimental battery temperature datasets
+├── notebooks/       # Google Colab notebook implementation
+├── src/             # Source code and project modules
+├── models/          # Machine learning model information
+├── results/         # Prediction results and reports
+├── images/          # Architecture, hardware, ML models, and graphs
 │
 ├── README.md
+├── requirements.txt
 ├── LICENSE
 ├── .gitignore
-├── requirements.txt
 └── CITATION.cff
-```
 
----
+Each directory is documented with its own README file to explain its contents and purpose.
+```
 ## Performance Metrics
 
 The machine learning models are evaluated using:
