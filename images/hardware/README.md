@@ -1,0 +1,3 @@
+# Hardware
+
+Hardware setup photographs.
