@@ -184,19 +184,19 @@ Gradient boosting algorithm with strong handling of complex feature relationship
 
 ## Installation
 
-Clone the repository:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/shashikiranam/ML-Based-EV-Battery-Fault-Detection-System.git
 ```
 
-Navigate to the project directory:
+### Navigate to the Project Directory
 
 ```bash
 cd ML-Based-EV-Battery-Fault-Detection-System
 ```
 
-Install the required Python packages:
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -210,16 +210,6 @@ pip install -r requirements.txt
 - Git
 
 ---
-
-## Installation
-
-```bash
-git clone https://github.com/shashikiranam/ML-Based-EV-Battery-Fault-Detection-System.git
-
-cd ML-Based-EV-Battery-Fault-Detection-System
-
-pip install -r requirements.txt
-```
 
 ## Usage
 
