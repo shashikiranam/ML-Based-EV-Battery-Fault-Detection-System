@@ -1,9 +1,14 @@
-# Models
+# Machine Learning Models
 
-This folder stores the trained machine learning models.
+This folder contains information related to the machine learning models used in this project.
 
-Contents:
+## Implemented Models
+
 - Random Forest
 - XGBoost
 - LightGBM
 - CatBoost
+
+These models were trained and evaluated using the processed battery temperature datasets.
+
+Performance comparisons are available in the `results/` directory.
