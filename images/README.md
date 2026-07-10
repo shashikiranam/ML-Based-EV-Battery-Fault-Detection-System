@@ -1,10 +1,11 @@
 # Images
 
-This folder contains project images.
+This folder contains images used throughout the repository.
 
-Contents:
-- Hardware Setup
+## Categories
+
+- Banner
 - System Architecture
-- Workflow
-- Dataset Graphs
-- Model Performance
+- Hardware Setup
+- Machine Learning Models
+- Experimental Results
