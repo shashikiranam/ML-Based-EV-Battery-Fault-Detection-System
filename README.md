@@ -19,7 +19,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [My Contributions](#my-contributions)
+- [Implementation Contributions](#implementation-contributions)
 - [Patent Information](#patent-information)
 - [Features](#features)
 - [Machine Learning Models](#machine-learning-models)
@@ -184,6 +184,35 @@ Gradient boosting algorithm with strong handling of complex feature relationship
 
 ## Installation
 
+Clone the repository:
+
+```bash
+git clone https://github.com/shashikiranam/ML-Based-EV-Battery-Fault-Detection-System.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd ML-Based-EV-Battery-Fault-Detection-System
+```
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Requirements
+
+- Python 3.10 or later
+- Google Colab or Jupyter Notebook
+- pip package manager
+- Git
+
+---
+
+## Installation
+
 ```bash
 git clone https://github.com/shashikiranam/ML-Based-EV-Battery-Fault-Detection-System.git
 
@@ -273,6 +302,24 @@ ML-Based-EV-Battery-Fault-Detection-System
 
 Each directory is documented with its own README file to explain its contents and purpose.
 ```
+---
+
+## Repository Statistics
+
+| Category | Details |
+|-----------|----------|
+| Programming Language | Python |
+| Machine Learning Models | 4 |
+| Experimental Datasets | 6 |
+| Temperature Sensors | T1, T2, T3 |
+| Operating Conditions | Load & No Load |
+| Development Environment | Google Colab |
+| Domain | Electric Vehicles |
+| Application | Battery Temperature Fault Detection |
+| Patent Status | Published Indian Patent Application |
+
+---
+
 ## Performance Metrics
 
 The machine learning models are evaluated using:
